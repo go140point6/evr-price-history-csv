@@ -1,0 +1,32 @@
+{
+  "name": "evr-price-history-csv",
+  "version": "1.0.0",
+  "description": "Price history for EVR by date exported to .csv",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/go140point6/evr-price-history-csv.git"
+  },
+  "keywords": [
+    "evernode",
+    "coingecko",
+    "export",
+    "history",
+    "xahau"
+  ],
+  "author": "go140point6",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/go140point6/evr-price-history-csv/issues"
+  },
+  "homepage": "https://github.com/go140point6/evr-price-history-csv#readme",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "csv-parse": "^5.5.5",
+    "dotenv": "^16.4.5",
+    "log-timestamp": "^0.3.0"
+  }
+}
